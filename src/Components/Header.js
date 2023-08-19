@@ -3,6 +3,7 @@ import React, { Component } from "react";
 class Header extends Component {
   render() {
     if (this.props.data) {
+      var profilepic = "images/mjlogow.png";
       var name = this.props.data.name;
       var occupation = this.props.data.occupation;
       var description = this.props.data.description;
@@ -66,6 +67,7 @@ class Header extends Component {
 
         <div className="row banner">
           <div className="banner-text">
+            <img src={profilepic} alt="mj Profile Pic" />
             <h1 className="responsive-headline">I'm {name}.</h1>
             <h3>
               I'm a <span>{city}</span> based <span>{occupation}</span>,

@@ -8,7 +8,8 @@ import About from "./Components/About";
 import Resume from "./Components/Resume";
 import Contact from "./Components/Contact";
 import Testimonials from "./Components/Testimonials";
-import Portfolio from "./Components/Portfolio";
+import Protfolio from "./Components/protfolio"
+
 
 class App extends Component {
   constructor(props) {
@@ -50,7 +51,8 @@ class App extends Component {
         <Header data={this.state.resumeData.main} />
         <About data={this.state.resumeData.main} />
         <Resume data={this.state.resumeData.resume} />
-        <Portfolio data={this.state.resumeData.portfolio} />
+        <Protfolio/>
+        {/* <PortfolioItem screenshotUrl="images/portfolio/alshams.png" /> */}
         <Testimonials data={this.state.resumeData.testimonials} />
         <Contact data={this.state.resumeData.main} />
         <Footer data={this.state.resumeData.main} />
