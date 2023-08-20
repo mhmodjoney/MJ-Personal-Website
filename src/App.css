@@ -65,15 +65,19 @@
 @keyframes example {
   0% {
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+     background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(23,144,56,1) 100%); 
   }
 
   100% {
     border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+     background: rgb(23,144,56);
+     background: linear-gradient(90deg, rgba(23,144,56,1) 0%, rgba(255,255,255,1) 100%); 
   }
 }
 
 .mj-profile-pic {
-  background-color: #179038;
+ 
   padding: 12px;
   animation-name: example;
   animation-duration: 2s;

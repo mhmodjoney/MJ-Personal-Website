@@ -48,7 +48,7 @@
     ],
     "work": [
       {
-        "company": "Robtic Minde",
+        "company": "Robtic Mind",
         "title": "Full Stack Software Engineer",
         "years": "October 2021 - 2022",
         "description": "At Robtic Minde Creating database and stored procedure using SQL server. Implementing API using ASP.NET (core) and deploying it.   Worked on several DataBases and projects such E-Commerce website and delivery app.   Training interns on SQL and ASP.NET "
@@ -93,13 +93,35 @@
       },
       {
         "name": "MongoDB",
-        "description": "I have used many different database systems and am better educated and experienced with Relational Databases. However, for many applications, the ease of use of MongoDB better suits my needs and it is much more enjoyable to work with",
+        "description": " se of use of MongoDB better suits my needs",
         "image": "mongo.jpg"
       },
       {
         "name": "WordPress",
         "description": "I love WordPress for its versatility and user-friendly interface, allowing me to create stunning websites with ease",
         "image": "WordPress.png"
+      },
+      {
+        "name": "Django",
+        "description": "I love WordPress for its versatility and user-friendly interface, allowing me to create stunning websites with ease",
+        "image": "Django.png"
+      },
+      {
+        "name": "flask",
+        "description": "I love WordPress for its versatility and user-friendly interface, allowing me to create stunning websites with ease",
+        "image": "flask.png"
+      }
+    ],
+    "skillshardware": [
+      {
+        "name": "arduino",
+        "description": "I have used many different database systems and am better educated and experienced with Relational Databases. However, for many applications, the ease of use of MongoDB better suits my needs and it is much more enjoyable to work with",
+        "image": "arduino.png"
+      },
+      {
+        "name": "raspberry pi",
+        "description": "I love WordPress for its versatility and user-friendly interface, allowing me to create stunning websites with ease",
+        "image": "raspberrypi.png"
       }
     ]
   },
@@ -140,7 +162,7 @@
   "testimonials": {
     "testimonials": [
       {
-        "text": "I have had the opportunity to play with MJ on multiple occasions which has always been a pleasure. He is driven and motivated with a consistently positive attitude. MJ excels at communicating with others and is always willing to work hard until he solves the problem at hand.",
+        "text": "I have had the opportunity to play with Tim on multiple occasions which has always been a pleasure. He is driven and motivated with a consistently positive attitude. Tim excels at communicating with others and is always willing to work hard until he solves the problem at hand.",
         "user": "karim benzema"
       }
     ]

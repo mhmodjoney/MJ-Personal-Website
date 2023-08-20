@@ -21,7 +21,7 @@ class About extends Component {
            <AnimatedImage/>
           </div>
           <div className="nine columns main-col">
-            <h2>About 2 33Me</h2>
+            <h2>About Me</h2>
 
             <p>{bio}</p>
             <div className="row">

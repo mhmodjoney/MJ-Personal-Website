@@ -24,6 +24,15 @@ class Resume extends Component {
                   <p>{skills.description}</p>
                </div>
       })
+      var skills2= this.props.data.skillshardware.map(function(skills){
+        var projectImage = 'images/tech/'+skills.image;
+          return <div key={skills.name} className="columns feature-item">
+                    <img className='skill' alt={skills.name} src={projectImage} />
+                    <h5>{skills.name}</h5>
+                    <p>{skills.description}</p>
+                 </div>
+        })
+ 
     }
 
     return (
@@ -69,6 +78,10 @@ class Resume extends Component {
 					  {skills}
 					 </ul>
 			  </div>
+        <h1><span>hardwear Tech</span></h1>
+        <ul className="bgrid-quarters s-bgrid-thirds cf">
+					  {skills2}
+					 </ul>
       </div>
    </section>
     );
