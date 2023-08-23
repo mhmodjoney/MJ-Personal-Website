@@ -3,7 +3,7 @@
     "name": "Mahmoud Jouny",
     "occupation": " Full Stack Software Engineer",
     "description": " currently not employed //freelancer ",
-    "employer": "freelancer",
+    "employer": "",
     "jobDescription": "push pixels, shuffle data, and slap my keyboard until everything works 😁 ",
     "image": "profile_pic.jpg",
     "bio": "I am an athlete at heart, with an entrepreneurial spirit, a knack fo r iot, and a passion for coding. Born in a small town of 'lattakia, syria' I am moving to UAE where I will be looking for work as a full stack developer , alongside my many ongoing projects. I love to create and tend to keep a few too many projects on the go at a time. Outside of work I am an soccer player and content creator. I love to travel and lead a fairly nomadic lifestyle. I built much of my early portfolio from mountain of slenfia,lattakia and dream of being able to take my work with me while travelling the world.",
@@ -16,7 +16,7 @@
       "country": "syria",
       "zip": "041"
     },
-    "website": "http://www.timbakerdev.com",
+    "website": "https://mahmoud-jouny.onrender.com/",
     "resumedownload": "https://drive.google.com/file/d/13ue9eg-qWeEY6GhN7dW0afDYQS70nyXI/view",
     "social": [
       {
@@ -60,7 +60,12 @@
         "description": "online using wordprees or mern stack "
       }
     ],
-    "skills": [
+    "skilsnotused": [
+      {
+        "name": "python ",
+        "description": "Python fuels my passion for AI and IoT projects. With NodeMCU and Arduino, I unleash boundless creativity, crafting captivating applications and pushing technology's limits. Python's power brings my ideas to life, creating innovative, interconnected experiences.",
+        "image": "python.png"
+      },
       {
         "name": "Git",
         "description": "I use Git for almost all of my projects so far. I have used Git for version control in small teams and have toyed around with contributing to Open Source Projects.",
@@ -70,57 +75,63 @@
         "name": "c#",
         "description": "c# was one of my first programming language that I started using in college years ago. I used it with asp.net /core to bulide desktop and web apps.",
         "image": "c.jpg"
-      },
+      }
+    ],
+    "skills": [
       {
-        "name": "React Js",
-        "description": "I am fairly new to React and really did not like it at first. It has grown on me though and I will continue to use it going forward. I have built a ReactJS based resume-website  ",
-        "image": "react.jpg"
-      },
-      {
-        "name": "mysql db",
-        "description": "asdsadsadsadsadsad dsadsajldnsaljknd asfljbsnafkjlasfkj aslfjabnkfjbsakjfb saldjnsaljkfbnsan askjdbf I enjoy mysql for it's my first db language i have ever learned",
-        "image": "mysql.png"
+        "name": "Git",
+        "description": "I use Git for almost all of my projects so far. I have used Git for version control in small teams and have toyed around with contributing to Open Source Projects.",
+        "image": "git.jpg"
       },
       {
         "name": "Node JS",
-        "description": "Node JS is my server-side scripting language of choice. The bulk of my experience with it has been in conjunction with ReactJS-based projects",
+        "description": "Node JS is my server-side scripting language of choice. The bulk of my experience with it has been in conjunction with ReactJS-based and flutter projects",
         "image": "node.jpg"
       },
+     
       {
-        "name": "python ",
-        "description": "I use python for fun project  regarging ai and cool iot things espaically that i use node mcu and arduino to do cool staff with all of them",
-        "image": "python.png"
-      },
-      {
-        "name": "MongoDB",
-        "description": " se of use of MongoDB better suits my needs",
-        "image": "mongo.jpg"
+        "name": "React Js",
+        "description": "I am fairly new to React and really did not like it at first. It has grown on me though and I will continue to use it going forward. I have built a ReactJS based resume-website and i will use it to make many more  ",
+        "image": "react.jpg"
       },
       {
         "name": "WordPress",
-        "description": "I love WordPress for its versatility and user-friendly interface, allowing me to create stunning websites with ease",
+        "description": "I admire WordPress for its versatility and user-friendly interface, enabling me to create beautiful websites effortlessly. With its intuitive features, I can bring my creative ideas to life with ease",
         "image": "WordPress.png"
+      },
+     
+ 
+      {
+        "name": "Asp Core",
+        "description": "Asp Core one of my first framework that i used in college or work ,Although it is not the most practical but it will always have its place in my heart.",
+        "image": "asp.png"
+      },
+    
+      {
+        "name": "MongoDB",
+        "description": " MongoDB may not be my top choice, but I find it fun to play around with. Its document-oriented approach allows for flexible data exploration and storage. Despite my reservations, I appreciate MongoDB's versatility and the opportunity it offers for experimentation and discovery",
+        "image": "mongo.jpg"
       },
       {
         "name": "Django",
-        "description": "I love WordPress for its versatility and user-friendly interface, allowing me to create stunning websites with ease",
+        "description": "Django's rising popularity, coupled with AI advancements, empowers me to leverage Python's capabilities in my applications. With Django, I seamlessly integrate powerful AI features, unlocking endless possibilities for intelligent and innovative solutions",
         "image": "Django.png"
       },
       {
-        "name": "flask",
-        "description": "I love WordPress for its versatility and user-friendly interface, allowing me to create stunning websites with ease",
-        "image": "flask.png"
+        "name": "mysql db",
+        "description": "I am truly enamored by MySQL for its power in designing ERDs, allowing me to effortlessly discern table relationships. This proficiency has equipped me to optimize database structures, ensuring efficient data organization and system performance ",
+        "image": "mysql.png"
       }
     ],
     "skillshardware": [
       {
         "name": "arduino",
-        "description": "I have used many different database systems and am better educated and experienced with Relational Databases. However, for many applications, the ease of use of MongoDB better suits my needs and it is much more enjoyable to work with",
+        "description": "Arduino fuels my creativity with its endless possibilities. Through Arduino, I bring my ideas to life, creating captivating and interactive projects that push the boundaries of innovation",
         "image": "arduino.png"
       },
       {
         "name": "raspberry pi",
-        "description": "I love WordPress for its versatility and user-friendly interface, allowing me to create stunning websites with ease",
+        "description": "Raspberry Pi is a game-changer, revolutionizing the world of DIY projects. With its compact size and impressive capabilities, Raspberry Pi empowers me to explore new frontiers, creating innovative and versatile solutions with ease.",
         "image": "raspberrypi.png"
       }
     ]

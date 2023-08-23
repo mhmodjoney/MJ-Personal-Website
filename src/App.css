@@ -6,11 +6,47 @@
   font-size: 2rem;
 }
 
+@keyframes bg-spin {
+  to {
+    --border-angle: 1turn;
+  }
+}
+
+.feature-item:hover {
+
+  scale: 1.2;
+  transition: 0.5s;
+  background-image: conic-gradient(from var(--border-angle),
+      rgb(255, 255, 255),
+      rgb(255, 255, 255) 50%,
+      rgb(255, 255, 255)),
+    conic-gradient(from var(--border-angle),
+      transparent 20%,
+      rgb(67, 190, 100),
+      #ffffff);
+}
+
 .feature-item {
+  transition: 0.5s;
   text-align: center;
   margin-top: 2.5em;
   padding-left: 2em;
   padding-right: 2em;
+  --border-size: 3px;
+  --border-angle: 0turn;
+  background-size: calc(100% - (var(--border-size) * 2)) calc(100% - (var(--border-size) * 2)),
+    cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  animation: bg-spin 3s linear infinite;
+
+}
+
+@property --border-angle {
+  syntax: "<angle>";
+  inherits: true;
+  initial-value: 0turn;
 }
 
 .center {
@@ -20,9 +56,6 @@
 .warning {
   color: red;
 }
-
-
-
 
 /*@keyframes example {
   from {
@@ -36,11 +69,7 @@
   }
 }*/
 
-
-
-
 .scroll-img {
-
   width: 500px;
   height: 400px;
   object-fit: cover;
@@ -52,32 +81,24 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   margin-bottom: 25px;
   border-radius: 1.7rem;
-  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin-left: 6px;
   margin-top: 8px;
-
-
 }
-
-
-
 
 @keyframes example {
   0% {
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-     background: rgb(255,255,255);
-background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(23,144,56,1) 100%); 
+
   }
 
   100% {
     border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
-     background: rgb(23,144,56);
-     background: linear-gradient(90deg, rgba(23,144,56,1) 0%, rgba(255,255,255,1) 100%); 
+
   }
 }
 
 .mj-profile-pic {
- 
   padding: 12px;
   animation-name: example;
   animation-duration: 2s;
@@ -85,7 +106,7 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(23,144,56,1) 100
   animation-direction: alternate;
   animation-timing-function: ease-in;
   animation-iteration-count: infinite;
-
+  background-color: #179038;
 }
 
 .card {
@@ -103,8 +124,7 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(23,144,56,1) 100
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   margin-bottom: 25px;
   border-radius: 1.7rem;
-  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
-
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .card-image {
@@ -174,4 +194,191 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(23,144,56,1) 100
   font-size: 30px !important;
   font-weight: bold !important;
   text-align: center !important;
+}
+
+/* contect us css */
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+#contact-me {
+  background-color: #EBEEEE;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+}
+
+.social-container {
+  margin-top: 1em;
+}
+
+.social-icons {
+  padding: 0;
+  list-style: none;
+  margin: 0.5em;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin: 0.15em 0.5em;
+  /* Added margin for spacing */
+  position: relative;
+  font-size: 1.2em;
+}
+
+.social-icons i {
+  color: #fff;
+  position: absolute;
+  top: 21px;
+  left: 21px;
+  transition: all 265ms ease-out;
+}
+
+.social-icons a {
+  display: inline-block;
+}
+
+.social-icons a:before {
+  transform: scale(1);
+  -ms-transform: scale(1);
+  -webkit-transform: scale(1);
+  content: " ";
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  display: block;
+  background: linear-gradient(45deg, #179038, #8ee9a1);
+  transition: all 265ms ease-out;
+}
+
+.social-icons a:hover:before {
+  transform: scale(0);
+  transition: all 265ms ease-in;
+}
+
+.social-icons a:hover i {
+  transform: scale(2.2);
+  -ms-transform: scale(2.2);
+  -webkit-transform: scale(2.2);
+  color: #179038;
+  background: -webkit-linear-gradient(45deg, #179038, #8ee9a1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 265ms ease-in;
+}
+
+/* this for cards grid */
+.card-grids {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  /* Center the grid horizontally */
+  padding-left: 100px;
+  padding-right: 100px;
+  /* Add padding to the grid */
+}
+
+.card-skills {
+
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  scale: 0.9;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+  overflow: hidden;
+  /* Hide the overflowing border */
+  position: relative;
+  /* Position the pseudo-element */
+  /* Add transition property for smooth scaling */
+}
+
+.card-skills::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  z-index: -1;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  transition: border-color 0.3s ease-in-out;
+  /* Add transition property for smooth border color change */
+}
+
+.card-skills:hover {
+  transform: scale(1.1);
+  /* Scale up to 1.1 when hovering */
+}
+
+.card-skills::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  animation: borderAnimation 6s infinite linear;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.card-skills:hover::before {
+  opacity: 1;
+}
+
+@keyframes borderAnimation {
+  0% {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    border-color: #ffcc00;
+  }
+
+  25% {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    border-color: #ffcc00;
+  }
+
+  50% {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    border-color: #ffcc00;
+  }
+
+  75% {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    border-color: #ffcc00;
+  }
+
+  100% {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    border-color: #ffcc00;
+  }
+}
+
+.card-skills img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.card-skills h2 {
+  margin-top: 10px;
+}
+
+.card-skills p {
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  .card-grids {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
 }

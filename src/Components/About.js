@@ -39,7 +39,7 @@ class About extends Component {
                   <span>{phone}</span>
                   <br />
                   <span>
-                    <a href="mailto:tbakerx@gmail.com">{email}</a>
+                    <a href="mailto:mahmoudjouny99@gmail.com">{email}</a>
                   </span>
                 </p>
               </div>
