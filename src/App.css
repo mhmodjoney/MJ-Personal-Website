@@ -13,17 +13,20 @@
 }
 
 .feature-item:hover {
-
   scale: 1.2;
   transition: 0.5s;
-  background-image: conic-gradient(from var(--border-angle),
+  background-image: conic-gradient(
+      from var(--border-angle),
       rgb(255, 255, 255),
       rgb(255, 255, 255) 50%,
-      rgb(255, 255, 255)),
-    conic-gradient(from var(--border-angle),
+      rgb(255, 255, 255)
+    ),
+    conic-gradient(
+      from var(--border-angle),
       transparent 20%,
       rgb(67, 190, 100),
-      #ffffff);
+      #ffffff
+    );
 }
 
 .feature-item {
@@ -34,13 +37,13 @@
   padding-right: 2em;
   --border-size: 3px;
   --border-angle: 0turn;
-  background-size: calc(100% - (var(--border-size) * 2)) calc(100% - (var(--border-size) * 2)),
+  background-size:
+    calc(100% - (var(--border-size) * 2)) calc(100% - (var(--border-size) * 2)),
     cover;
   background-position: center center;
   background-repeat: no-repeat;
 
   animation: bg-spin 3s linear infinite;
-
 }
 
 @property --border-angle {
@@ -57,44 +60,30 @@
   color: red;
 }
 
-/*@keyframes example {
-  from {
-    bottom: 0px;
-    height: 300px;
-  }
-
-  to {
-    bottom: 500px;
-    height: 800px;
-  }
-}*/
-
 .scroll-img {
-  width: 500px;
-  height: 400px;
+  flex-grow: 1;
+  max-height: 500px;
+}
+
+.scroll-img img {
   object-fit: cover;
-  overflow: hidden;
-  position: relative;
-  z-index: 1;
+  width: 95%;
+  height: 450px;
+  margin: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  margin-bottom: 25px;
   border-radius: 1.7rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin-left: 6px;
-  margin-top: 8px;
 }
 
 @keyframes example {
   0% {
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-
   }
 
   100% {
     border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
-
   }
 }
 
@@ -110,14 +99,11 @@
 }
 
 .card {
-  position: relative;
   z-index: 2;
-
+  align-items: center;
   display: flex;
-  flex-direction: column;
-  width: 100%;
-  max-width: 900px;
-  height: 1500px;
+  flex-direction: row;
+  width: 95%;
   background-color: #fff;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -125,6 +111,17 @@
   margin-bottom: 25px;
   border-radius: 1.7rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+@media only screen and (max-width: 814px) {
+  .card {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .scroll-img {
+    order: 2;
+  }
 }
 
 .card-image {
@@ -154,11 +151,6 @@
 }
 
 @media (min-width: 576px) {
-  .card {
-    flex-direction: row;
-    height: auto;
-  }
-
   .card-image {
     flex: 0 0 50%;
     max-width: 50%;
@@ -168,7 +160,6 @@
 
   .card-content {
     flex: 0 0 50%;
-    max-width: 50%;
     padding: 16px;
   }
 }
@@ -183,7 +174,9 @@
 .card-grid {
   padding-top: 20px;
   padding-bottom: 20px;
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
   /* Center the grid horizontally */
   gap: 20px;
@@ -200,7 +193,7 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 
 #contact-me {
-  background-color: #EBEEEE;
+  background-color: #ebeeee;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -281,7 +274,6 @@
 }
 
 .card-skills {
-
   padding: 20px;
   text-align: center;
   border-radius: 8px;
@@ -337,27 +329,27 @@
 @keyframes borderAnimation {
   0% {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-    border-color: #ffcc00;
+    border-color: #0e4e1a;
   }
 
   25% {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-    border-color: #ffcc00;
+    border-color: #10591f;
   }
 
   50% {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-    border-color: #ffcc00;
+    border-color: #126d25;
   }
 
   75% {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-    border-color: #ffcc00;
+    border-color: #15782e;
   }
 
   100% {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-    border-color: #ffcc00;
+    border-color: #179038;
   }
 }
 
