@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # MJ Development 
 =======
 # Mj Development 
