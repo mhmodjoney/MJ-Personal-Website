@@ -47,10 +47,16 @@
     ],
     "work": [
       {
+        "company": "Golden Click Digital Marketing & Branding Agency",
+        "title": "Full Stack developer",
+        "years": " Dec 2022 - Jun 2023 · 7 mos",
+        "description": "Created user-friendly websites, control panels, and interactive UIs using React and WordPress, delivering engaging experiences for users and efficient management capabilities. Successfully worked on various projects utilizing WordPress, React, and Node.js. Developed backends for front applications using Node.js, enabling secure data exchange and seamless integration with third-party services. "
+      },
+      {
         "company": "Robtic Mind",
-        "title": "Full Stack Software Engineer",
-        "years": "October 2021 - 2022",
-        "description": "At Robtic Minde Creating database and stored procedure using SQL server. Implementing API using ASP.NET (core) and deploying it.   Worked on several DataBases and projects such E-Commerce website and delivery app.   Training interns on SQL and ASP.NET "
+        "title": "Full Stack developer",
+        "years": "May 2021 - Jun 2022 · 1 yr 2 mos",
+        "description": "Successfully worked on various projects using ASP.NET Core framework. Developed a backend for mobile applications using ASP.NET Core, allowing secure data exchange and integration with third-party services. Created user-friendly websites and control panels using ASP.NET Core, providing seamless experiences for users and efficient management capabilities."
       },
       {
         "company": "freelance",
