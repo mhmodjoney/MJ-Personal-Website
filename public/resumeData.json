@@ -6,18 +6,17 @@
     "employer": "",
     "jobDescription": "push pixels, shuffle data, and slap my keyboard until everything works 😁 ",
     "image": "profile_pic.jpg",
-    "bio": "I am an athlete at heart, with an entrepreneurial spirit, a knack fo r iot, and a passion for coding. Born in a small town of 'lattakia, syria' I am moving to UAE where I will be looking for work as a full stack developer , alongside my many ongoing projects. I love to create and tend to keep a few too many projects on the go at a time. Outside of work I am an soccer player and content creator. I love to travel and lead a fairly nomadic lifestyle. I built much of my early portfolio from mountain of slenfia,lattakia and dream of being able to take my work with me while travelling the world.",
+    "bio": "Experienced backend developer with a passion for continuous learning and growth. Recently relocated to UAE and actively seeking new opportunities in the region. I have two years of professional experience in backend development, specializing in technologies such as ASP.NET (core), SQL, and JavaScript. I thrive in dynamic environments and enjoy taking on new challenges. I am eager to contribute my skills and knowledge to a forward-thinking company and contribute to their success. Please feel free to reach out for more information or to view my CV. Let's connect and explore potential collaborations",
     "contactmessage": "Have a project for me? Think I'd be a good fit for your team? I'd love to hear from you, give me a shout by email or by using the form below if you'd like to get in contact with me.",
     "email": "mahmoudjouny99@gmail.com",
-    "phone": "(963) 938261614",
+    "phone": "(+971)56 712 5726",
     "address": {
-      "street": "al herish st",
-      "city": "lattakia",
-      "country": "syria",
-      "zip": "041"
+      "street": "",
+      "city": "DUBAI",
+      "country": "UAE"
     },
     "website": "https://mahmoud-jouny.onrender.com/",
-    "resumedownload": "https://drive.google.com/file/d/13ue9eg-qWeEY6GhN7dW0afDYQS70nyXI/view",
+    "resumedownload": "https://www.mediafire.com/file/tgmfasagj8auv7i/mahmoud_jouny.pdf/file",
     "social": [
       {
         "name": "facebook",
@@ -42,16 +41,22 @@
       {
         "school": "University of Tishreen",
         "degree": "Bachelors in Computer Science and automatic control",
-        "graduated": "Expected April 2022",
+        "graduated": " April 2022",
         "description": "---------."
       }
     ],
     "work": [
       {
+        "company": "Golden Click Digital Marketing & Branding Agency",
+        "title": "Full Stack developer",
+        "years": " Dec 2022 - Jun 2023 · 7 mos",
+        "description": "Created user-friendly websites, control panels, and interactive UIs using React and WordPress, delivering engaging experiences for users and efficient management capabilities. Successfully worked on various projects utilizing WordPress, React, and Node.js. Developed backends for front applications using Node.js, enabling secure data exchange and seamless integration with third-party services. "
+      },
+      {
         "company": "Robtic Mind",
-        "title": "Full Stack Software Engineer",
-        "years": "October 2021 - 2022",
-        "description": "At Robtic Minde Creating database and stored procedure using SQL server. Implementing API using ASP.NET (core) and deploying it.   Worked on several DataBases and projects such E-Commerce website and delivery app.   Training interns on SQL and ASP.NET "
+        "title": "Full Stack developer",
+        "years": "May 2021 - Jun 2022 · 1 yr 2 mos",
+        "description": "Successfully worked on various projects using ASP.NET Core framework. Developed a backend for mobile applications using ASP.NET Core, allowing secure data exchange and integration with third-party services. Created user-friendly websites and control panels using ASP.NET Core, providing seamless experiences for users and efficient management capabilities."
       },
       {
         "company": "freelance",
@@ -88,7 +93,7 @@
         "description": "Node JS is my server-side scripting language of choice. The bulk of my experience with it has been in conjunction with ReactJS-based and flutter projects",
         "image": "node.jpg"
       },
-     
+
       {
         "name": "React Js",
         "description": "I am fairly new to React and really did not like it at first. It has grown on me though and I will continue to use it going forward. I have built a ReactJS based resume-website and i will use it to make many more  ",
@@ -99,14 +104,13 @@
         "description": "I admire WordPress for its versatility and user-friendly interface, enabling me to create beautiful websites effortlessly. With its intuitive features, I can bring my creative ideas to life with ease",
         "image": "WordPress.png"
       },
-     
- 
+
       {
         "name": "Asp Core",
         "description": "Asp Core one of my first framework that i used in college or work ,Although it is not the most practical but it will always have its place in my heart.",
         "image": "asp.png"
       },
-    
+
       {
         "name": "MongoDB",
         "description": " MongoDB may not be my top choice, but I find it fun to play around with. Its document-oriented approach allows for flexible data exploration and storage. Despite my reservations, I appreciate MongoDB's versatility and the opportunity it offers for experimentation and discovery",
